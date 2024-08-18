@@ -26,14 +26,17 @@ We also performed hyperparameter tuning using `RandomizedSearchCV` and `GridSear
    ```bash
    git clone https://github.com/your-username/heart-disease-prediction.git
 
-2. Navigate to the project folder:
+2. **Navigate to the project folder:**
+    ```bash
    cd heart-disease-prediction
 
-3. Create and activate the Conda environment:
+4. **Create and activate the Conda environment:**
+    ```bash
    conda env create -f environment.yml
    conda activate heart-disease-env
 
-4. Install additional dependencies if needed:
+6. **Install additional dependencies if needed:**
+    ```bash
    pip install -r requirements.txt
 
    
